@@ -1,0 +1,22 @@
+
+/* Especificidad: 001*/
+body {
+font-family: Tahoma, sans-serif;
+color: #000000;
+background-color:#fff;
+}
+
+/* Especificidad: 001*/
+header{
+    background-color: lightgrey;
+}
+/* Especificidad: 002*/
+header img{
+    width: 16rem;
+}
+
+/* Especificidad: 001*/
+footer{
+    color: white;
+    background-color: lightslategrey;
+}
