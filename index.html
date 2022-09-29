@@ -3,7 +3,7 @@
 
 <head>
     <!-- Datos que describen el documento -->
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
 
     <!-- Definir el autor del fichero html -->
     <meta name="author" content="Alexander López Méndez">
@@ -18,46 +18,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Angular explicado</title>
-    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
 </head>
 
 <body>
     <header>
-        <img src="multimedia/images/angular-by-google.png" alt="logo de Angular"/>
+        <img src="multimedia/images/angular-by-google.png" alt="logo de Angular">
     </header>
 
     <nav>
-        <ul>
-            <li>
-                <a href="index.html">Índice</a>
-            </li>
-            <li>
-                <a href="versiones.html">Versiones</a>
-            </li>
-            <li>
-                <a href="aprender.html">Aprender</a>
-            </li>
-            <li>
-                <a href="ejemplos.html">Ejemplos</a>
-            </li>
-        </ul>
+        <a href="index.html">Índice</a>
+        <a href="versiones.html">Versiones</a>
+        <a href="aprender.html">Aprender</a>
+        <a href="ejemplos.html">Ejemplos</a>
     </nav>
 
-    <nav>
-      
-                <a href="index.html">Índice</a>
-                <a href="versiones.html">Versiones</a>
-                <a href="aprender.html">Aprender</a>
-                <a href="ejemplos.html">Ejemplos</a>
-    </nav>
-    <!-- Datos con el contenido que aparece en el navegador -->
-    <h1> Framework Angular </h1>
+    <main>
+        <!-- Datos con el contenido que aparece en el navegador -->
+        <section>
+            <h1> Framework Angular</h1>
+            <hr>
+            <article>
+                <h2>¿Qué es?</h2>
+                <p> 
+                    Angular (comúnmente llamado Angular 2+ o Angular 2) es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, 
+                    mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Angular es la evolución de AngularJS aunque 
+                    incompatible con su predecesor.
+                </p>
+            </article>
 
-    <p> Explicación </p>
+            <article>
+                <h2>Objetivo</h2>
+                <p>
+                    Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que 
+                    el desarrollo y las pruebas sean más fáciles.
+                </p>
+            </article>
 
+            <article>
+                <h2>¿Cómo funciona?</h2>
+                <p>
+                    La biblioteca lee el HTML que contiene atributos de las etiquetas personalizadas adicionales, entonces obedece a las directivas de los atributos 
+                    personalizados, y une las piezas de entrada o salida de la página a un modelo representado por las variables estándar de JavaScript. Angular se basa 
+                    en clases tipo "Componentes", cuyas propiedades son las usadas para hacer el binding de los datos. En dichas clases tenemos propiedades (variables) y
+                    métodos (funciones a llamar).
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h1>Principales características</h1>
+            <hr>
+            <article>
+                <h2>Velocidad y rendimiento:</h2>
+                <ul>
+                    <li>
+                        Generación de código: Angular convierte tus plantillas en código altamente optimizado para las máquinas virtuales 
+                        de JavaScript de hoy en día, ofreciéndote todas las ventajas del código escrito a mano con la productividad de un framework.
+                    </li>
+                    <li>
+                        Universal: Ejecuta la primera vista de tu aplicación en node.js, .NET, PHP, y otros servidores para renderizado de forma casi 
+                        instantánea obteniendo solo HTML y CSS. También abre posibilidades para la optimización del SEO del sitio, incluyendo configuración.
+                    </li>
+                    <li>
+                        División del código: Las aplicaciones de Angular se cargan rápidamente gracias al nuevo enrutador de componentes. Este ofrece una 
+                        división automática de códigos para que los usuarios solo carguen el código necesario para procesar la vista que solicitan.
+                    </li>
+                </ul>
+
+                <h2>Productividad</h2>
+                <ul>
+                    <li>
+                        Plantillas: Permite crear rápidamente vistas de interfaz de usuario con una sintaxis de plantilla simple y potente.
+                    </li>
+                    <li>
+                        Angular CLI: Las herramientas de línea de comandos permiten empezar a desarrollar rápidamente, añadir componentes y 
+                        realizar test, así como previsualizar de forma instantánea la aplicación.
+                    </li>
+                    <li>
+                        IDEs: Obtén sugerencias de código inteligente, detección de errores y otros comentarios en la mayoría de los editores populares e IDEs.
+                    </li>
+                </ul>
+               
+                <h2>Historia completa del desarrollo</h2>
+                <ul>
+                    <li>
+                        Testing: Utiliza Karma para realizar pruebas unitarias, y Protractor para realizar pruebas end-to-end de forma rápida ,estable y eficaz.
+                    </li>
+                    <li>
+                        Animación: Permite crear animaciones complejas y de alto rendimiento con muy poco código a través de la intuitiva API de Angular.
+                    </li>
+                    <li>
+                        Accesibilidad: Posee características para crear aplicaciones accesibles con los componentes disponibles para ARIA.
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    
     <footer>
-        <img src="multimedia/images/HTML5.png" alt="HTML5 válido!"/>
-        <img src="multimedia/images/CSS3.png" alt="CSS3 válido!"/>
+        <p> Desarollado por UO266499</p>
+        <img src="multimedia/images/HTML5.png" alt="HTML5 válido!">
+        <img src="multimedia/images/CSS3.png" alt="CSS3 válido!">
     </footer>
 </body>
 
