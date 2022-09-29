@@ -29,7 +29,7 @@ nav a{
 
 /* Especificidad: 001*/
 section{
-    margin: 0 1% 0 1%;
+    margin: 0 1% 2% 1%;
 }
 
 /* Especificidad: 001*/
@@ -46,5 +46,12 @@ nav{
 /* Especificidad: 001*/
 footer{
     color: white;
-    background-color: lightslategrey;
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    justify-content: center;
+}
+
+/* Especificidad: 001*/
+footer *{
+    margin: auto;
 }
