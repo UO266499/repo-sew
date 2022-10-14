@@ -9,7 +9,7 @@
     <meta name="author" content="Alexander López Méndez">
 
     <!-- Definir la descripción del fichero html -->
-    <meta name="description" content="Lista de las versiones del Framework Angular">
+    <meta name="description" content="Un formulario para eniar su opinión sobre esta página web">
 
     <!-- Definir las palabras claves -->
     <meta name="keywords" content="angular,framework,explicado,español">
@@ -19,7 +19,6 @@
 
     <title>Angular explicado</title>
 
-    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
 </head>
 
 <body>
@@ -38,7 +37,44 @@
     <main>
         <!-- Datos con el contenido que aparece en el navegador -->
         <section>
-            <h1> he</h1>
+            <h1>Cuentanos que piensas</h1>
+            <hr>
+
+            <p>En la sección a continuación puedes contarnos que te ha parecido esta página web, tanto si te ha parecido bien o mal el diseño, además de otras cosas como que te ha parecido lo mejor.</p>
+            <p>Gracias por visitar!</p>
+
+
+            <form>
+                <p><label>Nombre: <input type=text name=nombre></label></p>
+                <p><label>Telefono: <input type=tel name=telefono></label></p>
+                <p><label>Correo electrónico: <input type=email name=email></label></p>
+                
+                <fieldset>
+                 <legend> Diseño de la web </legend>
+                 <p><label> <input type=radio name=diseño> Mal </label></p>
+                 <p><label> <input type=radio name=diseño> Indiferente </label></p>
+                 <p><label> <input type=radio name=diseño> Bien </label></p>
+                </fieldset>
+
+                <fieldset>
+                 <legend> Mejores aspectos </legend>
+                 <p><label> <input type=checkbox name=aspectosDestacables> Diseño </label></p>
+                 <p><label> <input type=checkbox name=aspectosDestacables> Uso de elementos </label></p>
+                 <p><label> <input type=checkbox name=aspectosDestacables> Selección de imagenes </label></p>
+                 <p><label> <input type=checkbox name=aspectosDestacables> Selección de video </label></p>
+                 <p><label> <input type=checkbox name=aspectosDestacables> Explicación </label></p>
+                </fieldset>
+
+                <fieldset>
+                    <legend> Valoración media </legend>
+                    <input type=number name=media min=0 max=10 step=1>
+                </fieldset>
+                 
+                <p><label>Algún comentario: <textarea></textarea></label></p>
+                <p><button>Enviar</button></p>
+
+                <p>Hasta la próxima!</p>
+               </form>
         </section>
     </main>
     
