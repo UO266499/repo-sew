@@ -1,0 +1,37 @@
+/**********************************
+ Alexander López Méndez - UO266499
+**********************************/
+
+/* Especificidad: 001*/
+header{
+    display: grid;
+}
+
+/* Especificidad: 001*/
+nav{
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+}
+/* Especificidad: 001*/
+section{
+    display: grid;
+}
+
+/* Especificidad: 001*/
+img{
+    max-width: 95%;
+}
+
+/* Especificidad: 001*/
+video{
+    max-width: 95%;
+    justify-self: center;
+}
+
+/* Especificidad: 001*/
+footer{
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+}

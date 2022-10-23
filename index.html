@@ -17,6 +17,9 @@
     <!-- Definir la ventana grafica-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/layout.css">
+
     <title>Angular explicado</title>
     
 </head>
@@ -27,99 +30,89 @@
     </header>
 
     <nav>
-        <a href="index.html">Índice</a>
-        <a href="versiones.html">Versiones</a>
-        <a href="aprender.html">Aprender</a>
-        <a href="ejemplos.html">Ejemplos</a>
-        <a href="opiniones.html">Opinión</a>
+        <a href="index.html" accesskey="i">Índice</a>
+        <a href="versiones.html" accesskey="v">Versiones</a>
+        <a href="aprender.html" accesskey="a">Aprender</a>
+        <a href="ejemplos.html" accesskey="e">Ejemplos</a>
+        <a href="opiniones.html" accesskey="o">Opinión</a>
     </nav>
 
     <main>
         <!-- Datos con el contenido que aparece en el navegador -->
         <section>
             <h1> Framework Angular</h1>
-            <hr>
-            <article>
-                <h2>¿Qué es?</h2>
-                <p> 
-                    Angular (comúnmente llamado Angular 2+ o Angular 2) es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, 
-                    mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Angular es la evolución de AngularJS aunque 
-                    incompatible con su predecesor.
-                </p>
-            </article>
 
-            <article>
-                <h2>Objetivo</h2>
-                <p>
-                    Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que 
-                    el desarrollo y las pruebas sean más fáciles.
-                </p>
-            </article>
+            <h2>¿Qué es?</h2>
+            <p> 
+                Angular (comúnmente llamado Angular 2+ o Angular 2) es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, 
+                mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Angular es la evolución de AngularJS aunque 
+                incompatible con su predecesor.
+            </p>
 
-            <article>
-                <h2>¿Cómo funciona?</h2>
-                <p>
-                    La biblioteca lee el HTML que contiene atributos de las etiquetas personalizadas adicionales, entonces obedece a las directivas de los atributos 
-                    personalizados, y une las piezas de entrada o salida de la página a un modelo representado por las variables estándar de JavaScript. Angular se basa 
-                    en clases tipo "Componentes", cuyas propiedades son las usadas para hacer el binding de los datos. En dichas clases tenemos propiedades (variables) y
-                    métodos (funciones a llamar).
-                </p>
-            </article>
+            <h2>Objetivo</h2>
+            <p>
+                Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que 
+                el desarrollo y las pruebas sean más fáciles.
+            </p>
+
+            <h2>¿Cómo funciona?</h2>
+            <p>
+                La biblioteca lee el HTML que contiene atributos de las etiquetas personalizadas adicionales, entonces obedece a las directivas de los atributos 
+                personalizados, y une las piezas de entrada o salida de la página a un modelo representado por las variables estándar de JavaScript. Angular se basa 
+                en clases tipo "Componentes", cuyas propiedades son las usadas para hacer el binding de los datos. En dichas clases tenemos propiedades (variables) y
+                métodos (funciones a llamar).
+            </p>
         </section>
 
         <section>
             <h1>Principales características</h1>
-            <hr>
-            <article>
-                <h2>Velocidad y rendimiento:</h2>
-                <ul>
-                    <li>
-                        Generación de código: Angular convierte tus plantillas en código altamente optimizado para las máquinas virtuales 
-                        de JavaScript de hoy en día, ofreciéndote todas las ventajas del código escrito a mano con la productividad de un framework.
-                    </li>
-                    <li>
-                        Universal: Ejecuta la primera vista de tu aplicación en node.js, .NET, PHP, y otros servidores para renderizado de forma casi 
-                        instantánea obteniendo solo HTML y CSS. También abre posibilidades para la optimización del SEO del sitio, incluyendo configuración.
-                    </li>
-                    <li>
-                        División del código: Las aplicaciones de Angular se cargan rápidamente gracias al nuevo enrutador de componentes. Este ofrece una 
-                        división automática de códigos para que los usuarios solo carguen el código necesario para procesar la vista que solicitan.
-                    </li>
-                </ul>
+            <p>Entre las más importantes para saber antes de meterse de cabeza con este Framework.</p>
+            <h2>Velocidad y rendimiento:</h2>
+            <ul>
+                <li>
+                    Generación de código: Angular convierte tus plantillas en código altamente optimizado para las máquinas virtuales 
+                    de JavaScript de hoy en día, ofreciéndote todas las ventajas del código escrito a mano con la productividad de un framework.
+                </li>
+                <li>
+                    Universal: Ejecuta la primera vista de tu aplicación en node.js, .NET, PHP, y otros servidores para renderizado de forma casi 
+                    instantánea obteniendo solo HTML y CSS. También abre posibilidades para la optimización del SEO del sitio, incluyendo configuración.
+                </li>
+                <li>
+                    División del código: Las aplicaciones de Angular se cargan rápidamente gracias al nuevo enrutador de componentes. Este ofrece una 
+                    división automática de códigos para que los usuarios solo carguen el código necesario para procesar la vista que solicitan.
+                </li>
+            </ul>
 
-                <h2>Productividad</h2>
-                <ul>
-                    <li>
-                        Plantillas: Permite crear rápidamente vistas de interfaz de usuario con una sintaxis de plantilla simple y potente.
-                    </li>
-                    <li>
-                        Angular CLI: Las herramientas de línea de comandos permiten empezar a desarrollar rápidamente, añadir componentes y 
-                        realizar test, así como previsualizar de forma instantánea la aplicación.
-                    </li>
-                    <li>
-                        IDEs: Obtén sugerencias de código inteligente, detección de errores y otros comentarios en la mayoría de los editores populares e IDEs.
-                    </li>
-                </ul>
-               
-                <h2>Historia completa del desarrollo</h2>
-                <ul>
-                    <li>
-                        Testing: Utiliza Karma para realizar pruebas unitarias, y Protractor para realizar pruebas end-to-end de forma rápida ,estable y eficaz.
-                    </li>
-                    <li>
-                        Animación: Permite crear animaciones complejas y de alto rendimiento con muy poco código a través de la intuitiva API de Angular.
-                    </li>
-                    <li>
-                        Accesibilidad: Posee características para crear aplicaciones accesibles con los componentes disponibles para ARIA.
-                    </li>
-                </ul>
-            </article>
+            <h2>Productividad</h2>
+            <ul>
+                <li>
+                    Plantillas: Permite crear rápidamente vistas de interfaz de usuario con una sintaxis de plantilla simple y potente.
+                </li>
+                <li>
+                    Angular CLI: Las herramientas de línea de comandos permiten empezar a desarrollar rápidamente, añadir componentes y 
+                    realizar test, así como previsualizar de forma instantánea la aplicación.
+                </li>
+                <li>
+                    IDEs: Obtén sugerencias de código inteligente, detección de errores y otros comentarios en la mayoría de los editores populares e IDEs.
+                </li>
+            </ul>
+            
+            <h2>Historia completa del desarrollo</h2>
+            <ul>
+                <li>
+                    Testing: Utiliza Karma para realizar pruebas unitarias, y Protractor para realizar pruebas end-to-end de forma rápida ,estable y eficaz.
+                </li>
+                <li>
+                    Animación: Permite crear animaciones complejas y de alto rendimiento con muy poco código a través de la intuitiva API de Angular.
+                </li>
+                <li>
+                    Accesibilidad: Posee características para crear aplicaciones accesibles con los componentes disponibles para ARIA.
+                </li>
+            </ul>
         </section>
     </main>
     
     <footer>
-        <p> Desarollado por UO266499</p>
-        <p> Información obtenida de <a href="https://es.wikipedia.org/wiki/Angular_(framework)">Wikipedia</a></p>
         <img src="multimedia/images/HTML5.png" alt="HTML5 válido!">
         <img src="multimedia/images/CSS3.png" alt="CSS3 válido!">
     </footer>

@@ -9,7 +9,7 @@
     <meta name="author" content="Alexander López Méndez">
 
     <!-- Definir la descripción del fichero html -->
-    <meta name="description" content="Un formulario para eniar su opinión sobre esta página web">
+    <meta name="description" content="Un formulario para enviar su opinión sobre esta página web">
 
     <!-- Definir las palabras claves -->
     <meta name="keywords" content="angular,framework,explicado,español">
@@ -17,8 +17,10 @@
     <!-- Definir la ventana grafica-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Angular explicado</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/layout.css">
 
+    <title>Angular explicado</title>
 </head>
 
 <body>
@@ -27,23 +29,24 @@
     </header>
 
     <nav>
-        <a href="index.html">Índice</a>
-        <a href="versiones.html">Versiones</a>
-        <a href="aprender.html">Aprender</a>
-        <a href="ejemplos.html">Ejemplos</a>
-        <a href="opiniones.html">Opinión</a>
+        <a href="index.html" accesskey="i">Índice</a>
+        <a href="versiones.html" accesskey="v">Versiones</a>
+        <a href="aprender.html" accesskey="a">Aprender</a>
+        <a href="ejemplos.html" accesskey="e">Ejemplos</a>
+        <a href="opiniones.html" accesskey="o">Opinión</a>
     </nav>
 
     <main>
         <!-- Datos con el contenido que aparece en el navegador -->
         <section>
             <h1>Cuentanos que piensas</h1>
-            <hr>
 
             <p>En la sección a continuación puedes contarnos que te ha parecido esta página web, tanto si te ha parecido bien o mal el diseño, además de otras cosas como que te ha parecido lo mejor.</p>
             <p>Gracias por visitar!</p>
+        </section>
 
-
+        <section>
+            <h1>Conteste con sinceridad</h1>
             <form>
                 <p><label for="nombre">Nombre: </label><input type=text id="nombre" name=nombre></p>
                 <p><label for="telefono">Teléfono: </label><input type=tel id="telefono" name=telefono></p>
@@ -71,7 +74,7 @@
                     <input type=number id="media" name=media min=0 max=10 step=1>
                 </fieldset>
                  
-                <p><button>Enviar</button></p>
+                <p><input type="submit" value="Enviar"></p>
 
                 <p>Hasta la próxima!</p>
                </form>
@@ -79,8 +82,6 @@
     </main>
     
     <footer>
-        <p> Desarollado por UO266499</p>
-        <p> Información obtenida de <a href="https://es.wikipedia.org/wiki/Angular_(framework)">Wikipedia</a></p>
         <img src="multimedia/images/HTML5.png" alt="HTML5 válido!">
         <img src="multimedia/images/CSS3.png" alt="CSS3 válido!">
     </footer>
