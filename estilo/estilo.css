@@ -11,6 +11,7 @@ body {
 
 /* Especificidad: 001*/
 header{
+    color: #000000;
     background-color: #D6D6D6;
 }
 
@@ -18,10 +19,12 @@ header{
 nav a{
     text-decoration: none;
     color: #000000;
+    background-color: #f1f1f1;
 }
 
 /* Especificidad: 001*/
 nav{
+    color: #000000;
    background-color: #f1f1f1;
 }
 
